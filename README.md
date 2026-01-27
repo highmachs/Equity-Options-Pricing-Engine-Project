@@ -2,7 +2,10 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%23white)
 
+
 Equity Options Pricing Engine (EOPE) is a specialized financial analysis terminal designed to calculate and visualize option prices and Greeks in real-time. Developed to bridge the gap between theoretical financial models and interactive visual analysis, it leverages a bespoke Python Quantitative Engine to solve Black-Scholes-Merton partial differential equations with high precision, orchestration via Node.js, and a cinematic React frontend.
+
+**[➡️ Read the Technical Retrospective (learnings.md)](learnings.md)** - A deep dive into the engineering and quantitative insights gained from building this project.
 
 ## Tech Stack
 
