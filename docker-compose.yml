@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+    volumes:
+      # Mount quant_engine so you can edit python code and restart to see changes (for research/learning)
+      - ./quant_engine:/app/quant_engine

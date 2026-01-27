@@ -1,0 +1,11 @@
+[project]
+name = "equity-options-engine"
+version = "0.1.0"
+description = "Equity Options Pricing Engine and Risk Analysis Tool"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scipy>=1.10.0",
+    "yfinance>=0.2.40",
+]
